@@ -1,0 +1,24 @@
+{
+    "name": "imba-browser-boilerplate",
+    "version": "1.0.0",
+    "description": "Boilerplate for starting browser applications in imba",
+    "main": "source",
+    "scripts": {
+        "dev": "parcel source/index.html --out-dir .cache",
+        "release": "parcel build source/index.html --out-dir release"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:altteo/imba-browser-boilerplate.git"
+    },
+    "author": "Fedor Leschinsky",
+    "license": "MIT",
+    "devDependencies": {
+        "imba": "^1.3.3",
+        "imba-router": "^0.2.0",
+        "parcel-bundler": "^1.9.7",
+        "parcel-plugin-clean-dist": "^0.0.6",
+        "parcel-plugin-imba": "^0.0.3",
+        "stylus": "^0.54.5"
+    }
+}
