@@ -6,5 +6,5 @@ export tag Site
 	def render
 		# if router.path == '/' then router.go '/some'
 		<self>
-			<Test>
-			<Test>
+			<Test> 'Left widget'
+			<Test> 'Right widget'
